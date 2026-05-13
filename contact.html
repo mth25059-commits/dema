@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Contact | Krishan Kumar</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">KK</a>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="menu-close" id="menuClose">Close ✕</button>
+    <nav class="mobile-nav">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main id="content">
+
+    <section class="contact-hero">
+      <div class="contact-hero-left">
+        <div class="section-label">Contact</div>
+        <h1>Get in touch.<br><em>Let's get to work.</em></h1>
+        <p class="page-lead">If you have a project in mind, I'd love to hear about it. I typically respond within 2 business days.</p>
+
+        <div class="contact-person">
+          <div class="contact-avatar">KK</div>
+          <div class="contact-person-info">
+            <strong>Krishan Kumar</strong>
+            <span>Developer &amp; Digital Strategist</span>
+          </div>
+        </div>
+
+        <div class="contact-details">
+          <div class="contact-detail-row">
+            <span class="contact-detail-label">A</span>
+            <span>New Delhi, India — 110001</span>
+          </div>
+          <div class="contact-detail-row">
+            <span class="contact-detail-label">P</span>
+            <a href="tel:+919876543210">+91 98765 43210</a>
+          </div>
+          <div class="contact-detail-row">
+            <span class="contact-detail-label">E</span>
+            <a href="mailto:hello@krishankumar.dev">hello@krishankumar.dev</a>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          <a href="#" target="_blank">Instagram ↗</a>
+          <a href="#" target="_blank">LinkedIn ↗</a>
+          <a href="#" target="_blank">GitHub ↗</a>
+          <a href="#" target="_blank">Dribbble ↗</a>
+        </div>
+      </div>
+
+      <div class="contact-hero-right">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your name *</label>
+            <input type="text" id="name" name="name" placeholder="Ravi Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address *</label>
+            <input type="email" id="email" name="email" placeholder="ravi@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 99999 00000" />
+          </div>
+          <div class="form-group">
+            <label for="service">Type of project</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="website">Website</option>
+              <option value="mobile-app">Mobile App</option>
+              <option value="e-commerce">E-Commerce</option>
+              <option value="experiential">Experiential</option>
+              <option value="strategy">Strategy &amp; Consulting</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget range</label>
+            <select id="budget" name="budget">
+              <option value="">Select budget</option>
+              <option value="under-50k">Under ₹50,000</option>
+              <option value="50k-2l">₹50,000 – ₹2,00,000</option>
+              <option value="2l-5l">₹2,00,000 – ₹5,00,000</option>
+              <option value="5l-plus">₹5,00,000+</option>
+            </select>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="message">Tell me about your project *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe your project, goals, and timeline..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send message →</button>
+          <p class="form-note">* Required fields. Your data is never shared with third parties.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <nav class="footer-nav">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Dribbble</a>
+      </div>
+    </div>
+    <div class="footer-mid">
+      <div class="footer-address">
+        <p><strong>A</strong><br>New Delhi, India — 110001</p>
+        <p><strong>P</strong><br>+91 98765 43210</p>
+        <p><strong>E</strong><br><a href="mailto:hello@krishankumar.dev">hello@krishankumar.dev</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a href="index.html" class="footer-logo">KK</a>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+      <p class="footer-copy">© 2025 Krishan Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
